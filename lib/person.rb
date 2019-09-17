@@ -23,3 +23,5 @@ class Person
   def job=(new_job)
     @this_job_name = new_job
   end
+  
+end
