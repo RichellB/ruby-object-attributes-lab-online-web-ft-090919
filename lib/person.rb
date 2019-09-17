@@ -1,25 +1,25 @@
 class Person
-  def name=(dog_name)
-    @this_dog_name = dog_name 
+  def name=(person_name)
+    @this_name = person_name 
   end 
   
   def name 
-    @this_dog_name
+    @this_name
   end 
   
   def name=(new_name)
-    @this_dog_name = new_name
+    @this_name = new_name
   end
   
   
-  def breed=(dog_breed)
-    @this_dog_breed = dog_breed
+  def job=(job_title)
+    @this_job_name = job_title
   end 
   
   def name 
-    @this_dog_breed
+    @this_job_name
   end 
   
-  def breed=(new_breed)
-    @this_dog_breed = new_breed
+  def job=(new_job)
+    @this_job_name = new_job
   end
