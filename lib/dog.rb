@@ -9,11 +9,11 @@ class Dog
   end
   
   def breed 
-    @bread
+    @breed
   end 
   
   def breed=(new_breed)
-    @bread = new_breed
+    @breed = new_breed
   end
   
 end
