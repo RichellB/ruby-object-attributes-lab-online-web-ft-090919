@@ -23,3 +23,5 @@ class Dog
   def breed=(new_breed)
     @this_dog_breed = new_breed
   end
+  
+end
